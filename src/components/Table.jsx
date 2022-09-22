@@ -19,7 +19,7 @@ function UserTable() {
     {
       title: "Name",
       dataIndex: "name",
-      sorter: (a, b) => a.name - b.name,
+      sorter: (a, b) => a.name < b.name,
       key: "name",
     },
     {
